@@ -2,7 +2,7 @@ package MaxSubArray;
 
 public class MaxSubArrayOpt {
     public static int maxSubArrayOpt(int[] nums, int k){
-        int maxSum = 0;
+        int maxSum;
         int currentSum = 0;
 
         for (int i = 0; i < k; i++){
