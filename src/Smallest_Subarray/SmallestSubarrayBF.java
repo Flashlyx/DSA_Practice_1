@@ -1,6 +1,6 @@
 package Smallest_Subarray;
 
-public class SmallestSubarray {
+public class SmallestSubarrayBF {
     public static int smallestSubarrayBF(int[] nums, int target){
         int minLength = Integer.MAX_VALUE;
 
