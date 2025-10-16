@@ -19,7 +19,7 @@ public class StrongNumber {
 
             num = num / 10;
         }
-        return (temp == sum);
+        return sum == temp;
     }
 
     public static void main(String[] args){
