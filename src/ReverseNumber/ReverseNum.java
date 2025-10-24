@@ -14,7 +14,7 @@ public class ReverseNum {
         return reversedNum;
     }
     public static int reverseNumLong(int num) {
-        // LeetCode Reverse Integer Problem
+        // LeetCode Reverse Integer Problem !
         long reversedNum = 0;
 
         while ( num != 0){
