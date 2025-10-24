@@ -1,4 +1,4 @@
-package MaxSubArray;
+package MaxSubArrayFixedLength;
 
 public class MaxSubArrayBF {
 

@@ -6,16 +6,14 @@ public class MaxSubarrayOpt {
             return 0;
         }
 
-        int globalMax = 0;
+        int globalMax = nums[0];
         int currentMax = 0;
 
         for (int i = 0; i < nums.length; i++){
             int num = nums[i];
             currentMax = Math.max(num, currentMax + num);
 
-            if (currentMax > globalMax){
-                globalMax = currentMax;
-            }
+            globalMax = Math.max(globalMax, currentMax);
         }
         return globalMax;
     }

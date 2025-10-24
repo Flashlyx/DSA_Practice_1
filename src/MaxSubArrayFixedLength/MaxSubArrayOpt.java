@@ -1,4 +1,4 @@
-package MaxSubArray;
+package MaxSubArrayFixedLength;
 
 import java.util.Arrays;
 
