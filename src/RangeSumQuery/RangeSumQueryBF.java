@@ -20,8 +20,5 @@ public class RangeSumQueryBF {
         RangeSumQueryBF r1 = new RangeSumQueryBF(nums);
         int res1 = r1.sumRange(0,5);
         System.out.println(res1);
-
-
-
     }
 }
