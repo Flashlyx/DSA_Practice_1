@@ -24,5 +24,11 @@ public class PivotIndexBF {
     public static void main(String [] args){
         int[] nums1 = {1,7,3,6,5,6};
         System.out.println(pivotIndexBF(nums1));
+
+        int[] nums2 = {2,1,-1};
+        System.out.println(pivotIndexBF(nums2));
+
+        int[] nums3 = {1,2,3};
+        System.out.println(pivotIndexBF(nums3));
     }
 }
