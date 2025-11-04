@@ -19,7 +19,7 @@ public class EqualsMethodOverriding {
         public int getAge() {
             return age;
         }
-
+        // Always override hashcode method after overriding equals method
         @Override
         public boolean equals(Object o) {
             if (this == o) return true;
