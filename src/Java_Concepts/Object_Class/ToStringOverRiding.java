@@ -1,5 +1,8 @@
 package Java_Concepts.Object_Class;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 public class ToStringOverRiding { // By default, it " extends Object(class)
 
     int std_id;
@@ -25,6 +28,15 @@ public class ToStringOverRiding { // By default, it " extends Object(class)
 
         ToStringOverRiding std_2 = new ToStringOverRiding(2,"Jack",'B');
         System.out.println(std_2);
+
+        ToStringOverRiding std_3 = new ToStringOverRiding(3,"John Doe",'A');
+        System.out.println(std_3);
+
+        ArrayList<ToStringOverRiding> studentsList = new ArrayList<>();
+        studentsList.add(std_1);
+        studentsList.add(std_2);
+        studentsList.add(std_3);
+        System.out.println(studentsList);
     }
 
 }
