@@ -21,10 +21,17 @@ public class StringReplace {
             System.out.println(replaced);
         }
     }
+    public static void stringReplace3(){
+        String str = "Hi, Good Morning";
+        System.out.println("String before replacing : " + str);
+        System.out.println("after replacing : " + str.replace("Morning","Night"));
+    }
 
     public static void main(String[] args) {
         stringReplace1();
         System.out.println();
         stringReplace2();
+        System.out.println();
+        stringReplace3();
     }
 }
