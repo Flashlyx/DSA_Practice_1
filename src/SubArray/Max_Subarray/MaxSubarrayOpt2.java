@@ -1,4 +1,4 @@
-package Max_Subarray;
+package SubArray.Max_Subarray;
 
 import java.util.Arrays;
 

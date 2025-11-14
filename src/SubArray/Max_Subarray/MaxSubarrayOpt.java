@@ -1,4 +1,4 @@
-package Max_Subarray;
+package SubArray.Max_Subarray;
 
 public class MaxSubarrayOpt {
     public static int maxSubarrayOpt(int[] nums){

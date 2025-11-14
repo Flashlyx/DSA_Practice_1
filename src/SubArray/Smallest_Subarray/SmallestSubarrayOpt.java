@@ -1,11 +1,11 @@
-package Smallest_Subarray;
+package SubArray.Smallest_Subarray;
 
 public class SmallestSubarrayOpt {
     public static int smallestSubarrayOpt(int[] nums, int target){
 
         int minLength = Integer.MAX_VALUE;
         int currentSum = 0;
-        int startPoint=0;
+        int startPoint = 0;
 
         for (int endPoint = 0; endPoint < nums.length; endPoint++){
             currentSum = currentSum + nums[endPoint];

@@ -1,4 +1,4 @@
-package Smallest_Subarray;
+package SubArray.Smallest_Subarray;
 
 public class SmallestSubarrayBF {
     public static int smallestSubarrayBF(int[] nums, int target){
