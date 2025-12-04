@@ -1,6 +1,6 @@
 package ASCII_Value;
 
-public class Char_To_FourthChar {
+public class Char_To_Nth_Char {
     public static String toNthChar(String str, int n){
 
         StringBuilder res = new StringBuilder();
