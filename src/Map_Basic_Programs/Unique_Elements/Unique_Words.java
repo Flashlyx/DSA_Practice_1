@@ -1,5 +1,7 @@
 package Map_Basic_Programs.Unique_Elements;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
@@ -23,8 +25,29 @@ public class Unique_Words {
             }
         });
     }
+      public static ArrayList<String> uniqueWordsInSentence2(String str){
+
+          String[] sarr = str.split(" ");
+
+          Map<String,Integer> lhmap = new LinkedHashMap<>();
+
+          for (int i = 0; i < sarr.length;i++){
+              lhmap.put(sarr[i], lhmap.getOrDefault(sarr[i], 0) + 1);
+          }
+          ArrayList<String> res = new ArrayList<>();
+
+          lhmap.forEach((key, value) -> {
+              if (value == 1){
+                  res.add(key);
+              }
+          });
+          return res;
+      }
 
     public static void main(String[] args) {
-        uniqueWordsInSentence("hi hi hello how how how are are you ! ");
+
+        System.out.println(
+                uniqueWordsInSentence2("hi hi hello how how how are are you ! ")
+        );
     }
 }
