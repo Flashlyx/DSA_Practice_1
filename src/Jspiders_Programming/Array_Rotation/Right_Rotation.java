@@ -14,11 +14,11 @@ public class Right_Rotation {
         // k = 3
 
         for (int i = 0; i < arr.length; i++){
-            if (i + k > arr.length){
-                res[i] = arr[i - k];
+            if (i < k){
+                res[i] = arr[arr.length - k + i];
             }
             else{
-                res[i] = arr[i - k + arr.length];
+                res[i] = arr[i - k];
             }
         }
         return res;
@@ -31,7 +31,7 @@ public class Right_Rotation {
         System.out.println(Arrays.toString(rightArrayRotation(arr1,k1)));
 
         int[] arr2 = {20,40,60,50,10};
-        int k2 = 3;
+        int k2 = 4;
 
         System.out.println(Arrays.toString(rightArrayRotation(arr2,k2)));
      }
