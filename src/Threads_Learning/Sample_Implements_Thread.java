@@ -7,7 +7,6 @@ class MyThread2 implements Runnable{
 }
 public class Sample_Implements_Thread {
     public static void main(String[] args) {
-
         Thread mt2 = new Thread(new MyThread2());
         mt2.start();
     }
