@@ -25,11 +25,13 @@ public class LongestPrefixOpt {
         String[] strs3 = {"flash"};
         String[] strs4 = {"flower","flow","flo"};
         String[] strs5 = {};
+        String[] strs6 = {"flower","flower","flower"};
 
         System.out.println(longestPrefixOpt(strs1));
         System.out.println(longestPrefixOpt(strs2));
         System.out.println(longestPrefixOpt(strs3));
         System.out.println(longestPrefixOpt(strs4));
         System.out.println(longestPrefixOpt(strs5));
+        System.out.println(longestPrefixOpt(strs6));
     }
 }
